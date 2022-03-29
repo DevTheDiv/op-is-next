@@ -1,0 +1,42 @@
+:root {
+    --nav-height: 50px;
+    --nav-width: 100vw;
+}
+
+nav {
+    height: var(--nav-height);
+    width: var(--nav-width);
+    background-color: red;
+    position: fixed;
+}
+nav-empty {
+    display: block;
+    height: var(--nav-height);
+    width: var(--nav-width);
+}
+
+.main {
+    min-height: calc(100vh - var(--nav-height));
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
