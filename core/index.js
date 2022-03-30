@@ -26,7 +26,7 @@ function User(snapchatId) {
 
 // passport snapchat config
 passport.use(new SnapchatStrategy({
-        clientID: "",
+        clientID: "0dc791e7-dace-4966-84e5-7e12aa537ef0",
         clientSecret: "",
         callbackURL: "http://localhost:3000/auth/snapchat/callback",
         profileFields: ['id', 'displayName', 'bitmoji'],

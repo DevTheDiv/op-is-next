@@ -9,7 +9,7 @@ function Home() {
         <>
             <Head title={TITLE} description={DESCRIPTION}/>
             <div id="home-page">
-                home
+                <div>Welcome To Operation Iron Soldier</div>
             </div>
         </>
     );

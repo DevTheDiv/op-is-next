@@ -9,7 +9,6 @@ function About() {
         <>
             <Head title={TITLE} description={DESCRIPTION}/>
             <div id="about-page">
-                about
             </div>
         </>
     );
