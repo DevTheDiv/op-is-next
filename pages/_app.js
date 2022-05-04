@@ -1,5 +1,5 @@
-import '../styles/globals.css';
-import '../styles/app.css';
+import '../styles/globals.scss';
+import '../styles/app.scss';
 
 const TITLE = "Operation Iron Soldier Home";
 const DESCRIPTION = "Operation Iron Soldier is an Idependent Group who are here to create, design and inspire.";

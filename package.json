@@ -10,6 +10,10 @@
     "start": "cross-env NODE_ENV=production PORT=8888 node core/index.js",
     "lint": "next lint"
   },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
   "nodemonConfig": {
     "ignore": [
       ".next/*",
@@ -23,6 +27,7 @@
     "express": "^4.17.3",
     "express-session": "^1.17.2",
     "next": "12.1.0",
+    "node-sass": "npm:sass@^1.51.0",
     "nodemon": "^2.0.15",
     "passport": "^0.5.2",
     "passport-snapchat": "^1.0.0",
